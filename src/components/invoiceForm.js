@@ -218,7 +218,7 @@ class InvoiceForm extends React.PureComponent {
                     onPress={this.handlePreviousButton} 
                     disabled={this.state.previousButtonDisabled}
                 >
-                    <Icon style={{fontSize: 25, color: 'white'}} ios={'md-arrow-dropleft-circle'} android={'md-arrow-dropright-circle'} />
+                    <Icon style={{fontSize: 25, color: 'white'}} ios={'md-arrow-dropleft-circle'} android={'md-arrow-dropleft-circle'} />
                     <Text style={{fontSize: 15, color: 'white'}}>Previous</Text>
                 </Button>
             </View>
